@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+
+.background {
+    background-color: #362d42;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.title {
+    color: #fff;
+  text-shadow:
+      0 0 7px rgb(161, 243, 179),
+      0 0 10px rgb(161, 243, 179),
+      0 0 21px rgb(161, 243, 179),
+      0 0 42px rgb(158, 4, 247),
+      0 0 82px rgb(158, 4, 247),
+      0 0 92px rgb(158, 4, 247),
+      0 0 102px rgb(158, 4, 247),
+      0 0 151px rgb(158, 4, 247);
+
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX { 
+    color: #fff;
+  text-shadow:
+      0 0 7px rgb(243, 161, 202),
+      0 0 10px rgb(243, 161, 202),
+      0 0 21px rgb(243, 161, 202),
+      0 0 42px rgb(247, 4, 4),
+      0 0 82px rgb(247, 4, 4),
+      0 0 92px rgb(247, 4, 4),
+      0 0 102px rgb(247, 4, 4),
+      0 0 151px rgb(247, 4, 4);
+}
+
+.playerO {
+    color: #fff;
+  text-shadow:
+      0 0 7px rgb(105, 222, 243),
+      0 0 10px rgb(105, 222, 243),
+      0 0 21px rgb(105, 222, 243),
+      0 0 42px #498AFB,
+      0 0 82px #498AFB,
+      0 0 92px #498AFB,
+      0 0 102px #498AFB,
+      0 0 151px #498AFB;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    background-color: #FF3860;
+}
